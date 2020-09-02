@@ -1,0 +1,21 @@
+{
+    "name": "flatphp/query",
+    "description": "db query component",
+    "keywords": ["query", "database"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fred Yang",
+            "email": "shuky2000@163.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*",
+        "flatphp/lightdb": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flatphp\\Query\\": ""
+        }
+    }
+}
